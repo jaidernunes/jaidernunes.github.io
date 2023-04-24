@@ -1,5 +1,7 @@
 import React from 'react';
 import ProjectCard from "./ProjectCard";
+import recipesAppPic from '/src/assets/projects/recipesApp.png'
+import meditationTimerPic from '../assets/projects/meditationTimer.png'
 
 const Projects = () => {
   const projects = [
@@ -7,7 +9,7 @@ const Projects = () => {
       title: "Recipes App",
       description:
         "A React-based front-end web app, optimized for mobile devices.",
-      imageSrc: "/src/assets/recipesApp.png",
+      imageSrc: recipesAppPic,
       demoUrl: "https://recipes-app-jaider.vercel.app/",
       codeUrl: "https://github.com/jaidernunes/recipes-app",
     },
@@ -15,7 +17,7 @@ const Projects = () => {
       title: "Meditation Timer",
       description:
         "A React-based web appthat lets the user set up a meditation timer with bells ringing at regular intervals and at the end.",
-      imageSrc: "/src/assets/meditationTimer.png",
+      imageSrc: meditationTimerPic,
       demoUrl: "https://jaidernunes.github.io/meditation-timer/",
       codeUrl: "https://github.com/jaidernunes/meditation-timer",
     },
