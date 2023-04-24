@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Recipes App",
       description:
         "A React-based front-end web app, optimized for mobile devices.",
-      imageSrc: "public/projects/figma-recipes-app3.png",
+      imageSrc: "/src/assets//projects/figma-recipes-app.png",
       demoUrl: "https://recipes-app-jaider.vercel.app/",
       codeUrl: "https://github.com/jaidernunes/recipes-app",
     },
@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Meditation Timer",
       description:
         "A React-based web appthat lets the user set up a meditation timer with bells ringing at regular intervals and at the end.",
-      imageSrc: "public/projects/meditation-timer.png",
+      imageSrc: "/src/assets//projects/meditation-timer.png",
       demoUrl: "https://jaidernunes.github.io/meditation-timer/",
       codeUrl: "https://github.com/jaidernunes/meditation-timer",
     },
