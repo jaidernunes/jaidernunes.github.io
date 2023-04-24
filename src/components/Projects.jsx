@@ -4,33 +4,25 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "Project 1",
+      title: "Recipes App",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel tellus nec nisi lobortis aliquam non et turpis.",
-      imageSrc: "https://via.placeholder.com/400x300",
-      demoUrl: "https://example.com",
-      codeUrl: "https://github.com/example/project1",
+        "A React-based front-end web app, optimized for mobile devices.",
+      imageSrc: "public/projects/figma-recipes-app3.png",
+      demoUrl: "https://recipes-app-jaider.vercel.app/",
+      codeUrl: "https://github.com/jaidernunes/recipes-app",
     },
     {
-      title: "Project 2",
+      title: "Meditation Timer",
       description:
-        "Sed pellentesque, sapien ac efficitur rutrum, elit elit fringilla mauris, sit amet tincidunt lacus arcu a lectus.",
-      imageSrc: "https://via.placeholder.com/400x300",
-      demoUrl: "https://example.com",
-      codeUrl: "https://github.com/example/project2",
-    },
-    {
-      title: "Project 3",
-      description:
-        "Etiam at diam semper, porttitor quam vitae, pulvinar neque. Curabitur mollis leo eget augue maximus, sed tristique mi rhoncus.",
-      imageSrc: "https://via.placeholder.com/400x300",
-      demoUrl: "https://example.com",
-      codeUrl: "https://github.com/example/project3",
+        "A React-based web appthat lets the user set up a meditation timer with bells ringing at regular intervals and at the end.",
+      imageSrc: "public/projects/meditation-timer.png",
+      demoUrl: "https://jaidernunes.github.io/meditation-timer/",
+      codeUrl: "https://github.com/jaidernunes/meditation-timer",
     },
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-400">
+    <section id="projects" className="py-12 bg-gray-400">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

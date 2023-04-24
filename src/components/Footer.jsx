@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div className="flex-col leading-8">
           <p>Email: jaidernf@gmail.com</p>
-          <p>Mobile: +55 31 995 162 182</p>
+          <p>Mobile: +55 31 99516-2182</p>
         </div>
         <div className="flex justify-center m-4">
           <a href="https://github.com/jaidernunes" target="_blank" rel="noopener noreferrer" className="mx-4"><FaGithub size={24} /></a>
