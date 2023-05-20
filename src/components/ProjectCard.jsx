@@ -2,13 +2,13 @@ import React from "react";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="rounded-md shadow-md overflow-hidden max-w-[410px] relative">
+    <div className="bg-gray-200 rounded-md shadow-md overflow-hidden max-w-[410px] relative">
       <img
         className="h-48 w-full object-cover object-center"
         src={project.imageSrc}
         alt={project.title}
       />
-      <div className="p-6 pb-16">
+      <div className="px-6 pt-2.5 pb-16">
         <h3 className="text-lg font-medium text-gray-900 mb-2">
           {project.title}
         </h3>
