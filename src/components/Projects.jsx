@@ -26,9 +26,9 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-12 bg-gray-400">
-      <div className="container mx-auto">
+      <div className="container mx-auto ">
         <Title title="My Projects" ></Title>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {projects.map((project) => (
             <ProjectCard project={project} key={project.title} />
           ))}
