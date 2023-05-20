@@ -6,7 +6,7 @@ export default function AboutMe() {
     <section id="about" className="py-12">
       <div className="container mx-auto">
         <Title title="About Me" />
-        <p>
+        <p className='text-justify'>
           Hi, I'm Jaider, a tech enthusiast with a knack for problem-solving. I have been in the IT industry for 15 years and have always been fascinated by technology. In fact, my curiosity and desire to understand how my first computer worked led me to learn how to maintain it myself. During my teenage years, I began offering computer assembly and repair services as a side business, which has led to a thriving freelance career providing technical support to clients.
           <br />
           With years of experience working in hospitality and customer service, I have had the opportunity to develop excellent communication and problem-solving skills. Today, I'm focused on building a career in software development. I recently completed a web development bootcamp where I honed my skills in Javascript, React, Redux, Node.js, Jest, RTL, HTML, and CSS, and gained a deeper understanding of collaborative development dynamics.
