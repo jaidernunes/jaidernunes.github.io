@@ -1,4 +1,3 @@
-import './App.css';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -8,13 +7,15 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
-      <Intro />
-      <AboutMe />
-      <Projects />
-      <Skills />
-      <Footer />
+      <div className="">
+        <Intro />
+        <AboutMe />
+        <Projects />
+        <Skills />
+        <Footer />
+      </div>
     </div>
   );
 }

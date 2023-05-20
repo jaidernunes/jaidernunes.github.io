@@ -1,10 +1,11 @@
 import React from 'react';
+import Title from './Title';
 
-const AboutMe = () => {
+export default function AboutMe() {
   return (
     <section id="about" className="py-12">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">About Me</h2>
+        <Title title="About Me" />
         <p>
           Hi, I'm Jaider, a tech enthusiast with a knack for problem-solving. I have been in the IT industry for 15 years and have always been fascinated by technology. In fact, my curiosity and desire to understand how my first computer worked led me to learn how to maintain it myself. During my teenage years, I began offering computer assembly and repair services as a side business, which has led to a thriving freelance career providing technical support to clients.
           <br />
@@ -16,5 +17,3 @@ const AboutMe = () => {
     </section >
   );
 }
-
-export default AboutMe;

@@ -2,8 +2,9 @@ import React from 'react';
 import ProjectCard from "./ProjectCard";
 import recipesAppPic from '/src/assets/projects/recipesApp.png'
 import meditationTimerPic from '../assets/projects/meditationTimer.png'
+import Title from './Title';
 
-const Projects = () => {
+export default function Projects() {
   const projects = [
     {
       title: "Recipes App",
@@ -26,7 +27,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-12 bg-gray-400">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">My Projects</h2>
+        <Title title="My Projects" ></Title>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
             <ProjectCard project={project} key={project.title} />
@@ -36,5 +37,3 @@ const Projects = () => {
     </section>
   );
 }
-
-export default Projects;
